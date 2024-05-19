@@ -26,7 +26,7 @@ const Header = () => {
 		<header className="h-[99.05px]">
 			<nav className="h-full px-[70px] flex justify-between items-center">
 				<div className="text-[24.94px] font-bold flex gap-1">
-					<img src="/logo.svg" alt="" />
+					<img src="/logo.svg" alt="logo" />
 					<div>GenAI</div>
 				</div>
 

@@ -1,9 +1,36 @@
+import Button from "@/components/Button";
+
 export default function Home() {
 	return (
 		<main className="">
-			<h1 className="text-center text-3xl my-4">
-				1811 Labs Assignment 01 🚀
-			</h1>
+			<section className="flex justify-between items-center">
+				<div className="space-y-[36px] pl-[124px]">
+					<div className="space-y-[36px]">
+						<span className="px-[16px] py-[4px] text-[14px] bg-[#070825] rounded-full">
+							AI generation
+						</span>
+
+						<h1 className="text-[70px] font-bold">
+							Generate apps <br /> with ease
+						</h1>
+
+						<p className="text-[20px]">
+							Lorem ipsum dolor sit amet lorem
+						</p>
+					</div>
+
+					<Button>Start your free trial</Button>
+				</div>
+
+				<div>
+					<dir>
+						<img
+							src="/hero-primary-image.png"
+							alt="hero-primary-image"
+						/>
+					</dir>
+				</div>
+			</section>
 		</main>
 	);
 }
