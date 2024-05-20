@@ -1,36 +1,30 @@
-import Button from "@/components/Button";
+import CompaniesTieUp from "@/components/CompaniesTieUp/CompaniesTieUp";
+import FAQ from "@/components/FAQ/FAQ";
+import FuturePage from "@/components/FuturePage/FuturePage";
+import HeroPage from "@/components/HeroPage/HeroPage";
+import Pricing from "@/components/Pricing/Pricing";
+import Revolutionalize from "@/components/Revolutionalize/Revolutionalize";
+import Revolutionalize2 from "@/components/Revolutionalize2/Revolutionalize2";
+import Unleash from "@/components/Unleash/Unleash";
 
 export default function Home() {
 	return (
-		<main className="">
-			<section className="flex justify-between items-center">
-				<div className="space-y-[36px] pl-[124px]">
-					<div className="space-y-[36px]">
-						<span className="px-[16px] py-[4px] text-[14px] bg-[#070825] rounded-full">
-							AI generation
-						</span>
+		<main className="space-y-24">
+			<HeroPage />
 
-						<h1 className="text-[70px] font-bold">
-							Generate apps <br /> with ease
-						</h1>
+			<CompaniesTieUp />
 
-						<p className="text-[20px]">
-							Lorem ipsum dolor sit amet lorem
-						</p>
-					</div>
+			<Revolutionalize />
 
-					<Button>Start your free trial</Button>
-				</div>
+			<Revolutionalize2 />
 
-				<div>
-					<dir>
-						<img
-							src="/hero-primary-image.png"
-							alt="hero-primary-image"
-						/>
-					</dir>
-				</div>
-			</section>
+			<Unleash />
+
+			<Pricing />
+
+			<FAQ />
+
+			<FuturePage />
 		</main>
 	);
 }
