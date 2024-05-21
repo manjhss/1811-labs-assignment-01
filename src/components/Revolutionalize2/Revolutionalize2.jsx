@@ -16,7 +16,7 @@ function Revolutionalize2() {
 				</p>
 			</div>
 
-			<div className="grid gap-4 lg:gap-24 lg:grid-cols-2 mt-20 place-items-center lg:place-items-end">
+			<div className="grid lg:gap-24 lg:grid-cols-2 mt-20 place-items-center lg:place-items-end">
 				<div className="space-y-[32px] p-[22px] lg:px-[39px] lg:py-[48px] border-2 border-slate-400/20 rounded-2xl sm:w-[540px] lg:w-[440px] xl:w-[500px]">
 					<h4 className="text-[32px] font-semibold">
 						Generate AI apps without any extra effort
