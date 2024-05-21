@@ -1,8 +1,11 @@
 import React from "react";
 
 function PriceCard({ index, title, description, price, services }) {
-	const padding = index === 1 ? "xl:p-[64px] p-[32px]" : "p-[32px]";
-	const color = index === 1 ? "bg-[#706BFF] border-white/60" : "";
+	const padding = index === 1 ? "xl:py-[64px] p-[32px]" : "p-[32px]";
+	const color =
+		index === 1
+			? "bg-[#706BFF] border-white/50 hover:bg-[#706BFF]/80"
+			: "border-slate-400/20 hover:bg-white/10";
 
 	return (
 		<div
@@ -20,7 +23,7 @@ function PriceCard({ index, title, description, price, services }) {
 			</div>
 
 			<button
-				className={`${color} px-[20px] py-[10px] border-2 rounded-xl text-[16px] font-medium w-full border-slate-400/20`}
+				className={`${color} px-[20px] py-[10px] border-2 rounded-xl text-[16px] font-medium w-full`}
 			>
 				Get Started
 			</button>

@@ -15,7 +15,7 @@ function Revolutionalize() {
 				</p>
 			</div>
 
-			<div className="grid gap-4 lg:gap-24 lg:grid-cols-2 mt-20 place-items-center lg:place-items-end">
+			<div className="grid gap-8 lg:gap-24 lg:grid-cols-2 mt-20 place-items-center lg:place-items-end">
 				<div className="relative -top-24 flex justify-center items-stretch">
 					<div className="w-[88%]">
 						<img src="/user-acc-card.png" alt="user-card" />

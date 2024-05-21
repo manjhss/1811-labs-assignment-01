@@ -6,7 +6,7 @@ function Accordion({ question, answer }) {
 	const [displayAnwser, setDisplayAnswer] = useState(false);
 
 	return (
-		<div className="px-[16px] pr-[48px] py-[25px] border border-slate-400/40 rounded-xl space-y-6">
+		<div className="px-[16px] pr-[48px] py-[25px] border-2 border-slate-400/20 rounded-xl space-y-6">
 			<div className="text-[18px] font-medium flex justify-between gap-2">
 				<div>{question}</div>
 				<button onClick={() => setDisplayAnswer(!displayAnwser)}>
