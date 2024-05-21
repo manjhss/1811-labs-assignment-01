@@ -12,19 +12,21 @@ export default function Home() {
 		<main className="space-y-24">
 			<HeroPage />
 
-			<CompaniesTieUp />
+			<section className="bg-[#090725] space-y-24 px-6">
+				<CompaniesTieUp />
 
-			<Revolutionalize />
+				<Revolutionalize />
 
-			<Revolutionalize2 />
+				<Revolutionalize2 />
 
-			<Unleash />
+				<Unleash />
 
-			<Pricing />
+				<Pricing />
 
-			<FAQ />
+				<FAQ />
 
-			<FuturePage />
+				<FuturePage />
+			</section>
 		</main>
 	);
 }

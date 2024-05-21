@@ -1,12 +1,12 @@
 import React from "react";
 
 function PriceCard({ index, title, description, price, services }) {
-	const padding = index === 1 ? "p-[64px]" : "p-[32px]";
+	const padding = index === 1 ? "xl:p-[64px] p-[32px]" : "p-[32px]";
 	const color = index === 1 ? "bg-[#706BFF] border-white/60" : "";
 
 	return (
 		<div
-			className={`${padding} px-[32px] border-2 border-gray-600 rounded-2xl space-y-[24px]`}
+			className={`${padding} px-[32px] border-2 border-slate-400/20 rounded-2xl space-y-[24px]`}
 		>
 			<div className="space-y-[16px]">
 				<h4 className="text-[32px] font-medium">{title}</h4>
@@ -20,14 +20,17 @@ function PriceCard({ index, title, description, price, services }) {
 			</div>
 
 			<button
-				className={`${color} px-[20px] py-[10px] border-2 rounded-xl text-[16px] font-medium w-full border-gray-600`}
+				className={`${color} px-[20px] py-[10px] border-2 rounded-xl text-[16px] font-medium w-full border-slate-400/20`}
 			>
 				Get Started
 			</button>
 
 			<ul className="text-[20px] text-white/60">
 				{services?.map((service, index) => {
-					const border = index === 3 ? "border-none" : "border-b";
+					const border =
+						index === 3
+							? "border-none"
+							: "border-b-2 border-slate-400/20";
 
 					return (
 						<li

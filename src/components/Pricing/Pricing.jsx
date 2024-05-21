@@ -39,14 +39,14 @@ function Pricing() {
 	];
 
 	return (
-		<section className="w-[1174px] m-auto space-y-[80px]">
+		<section className="xl:w-[1174px] m-auto space-y-[80px]">
 			<div className="space-y-[24px] flex flex-col justify-center">
 				<h2 className="text-[56px] font-bold text-center bg-gradient-to-br from-white via-gray-300 to-gray-600 text-transparent bg-clip-text inline-block">
 					Get everything to build your app
 				</h2>
 			</div>
 
-			<div className="grid grid-cols-3 place-items-center gap-[24px]">
+			<div className="grid md:grid-cols-2 xl:grid-cols-3 xl:place-items-center gap-[24px]">
 				{pricingData.map((data, index) => (
 					<PriceCard
 						key={index}

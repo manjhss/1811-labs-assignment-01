@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Button from "@/components/Button";
+import { Menu } from "lucide-react";
 
 const Header = () => {
 	const navItems = [
@@ -23,14 +24,20 @@ const Header = () => {
 	];
 
 	return (
-		<header className="h-[99.05px]">
-			<nav className="h-full px-[70px] flex justify-between items-center">
-				<div className="text-[24.94px] font-bold flex gap-1">
-					<img src="/logo.svg" alt="logo" />
-					<div>GenAI</div>
+		<header className="xl:w-[1440px] w-full h-[99.05px]">
+			<nav className="h-full px-6 lg:px-[70px] flex justify-between items-center flex-wrap">
+				<div className="flex items-center gap-3">
+					<div className="lg:hidden">
+						<Menu size={32} />
+					</div>
+
+					<div className="text-[24.94px] font-bold flex gap-1">
+						<img src="/logo.svg" alt="logo" />
+						<div>GenAI</div>
+					</div>
 				</div>
 
-				<ul className="flex gap-[20px]">
+				<ul className="hidden lg:flex gap-[20px]">
 					{navItems.map((item) => (
 						<li
 							key={item.name}

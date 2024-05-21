@@ -5,47 +5,47 @@ function FAQ() {
 	const faqData = [
 		{
 			question: "What is outreach AI?",
-			answer: "",
+			answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti architecto quis ex est doloribus facere nihil, dignissimos beatae odio corporis consectetur officiis rem non.",
 		},
 		{
 			question: "What is AI personalization?",
-			answer: "",
+			answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti architecto quis ex est doloribus facere nihil, dignissimos beatae odio corporis consectetur officiis rem non.",
 		},
 		{
 			question: "What's the impact of AI on prospecting?",
-			answer: "",
+			answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti architecto quis ex est doloribus facere nihil, dignissimos beatae odio corporis consectetur officiis rem non.",
 		},
 		{
 			question: "Can AI replace human interaction in outreach?",
-			answer: "",
+			answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti architecto quis ex est doloribus facere nihil, dignissimos beatae odio corporis consectetur officiis rem non.",
 		},
 		{
 			question: "How does AI improve outreach effectiveness?",
-			answer: "",
+			answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti architecto quis ex est doloribus facere nihil, dignissimos beatae odio corporis consectetur officiis rem non.",
 		},
 		{
 			question: "What are the benefits of using AI in outreach?",
-			answer: "",
+			answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti architecto quis ex est doloribus facere nihil, dignissimos beatae odio corporis consectetur officiis rem non.",
 		},
 		{
 			question: "Can AI help in optimizing outreach campaigns?",
-			answer: "",
+			answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti architecto quis ex est doloribus facere nihil, dignissimos beatae odio corporis consectetur officiis rem non.",
 		},
 		{
 			question: "How to generate personalized campaigns with lemlist AI?",
-			answer: "",
+			answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti architecto quis ex est doloribus facere nihil, dignissimos beatae odio corporis consectetur officiis rem non.",
 		},
 	];
 
 	return (
-		<section className="w-[1150px] m-auto flex gap-[112px] items-start">
-			<div className="space-y-[24px] flex flex-col justify-center">
+		<section className="xl:w-[1150px] m-auto flex flex-col xl:flex-row gap-12 xl:gap-[112px] flex-wrap">
+			<div>
 				<h2 className="text-[56px] font-bold bg-gradient-to-br from-white via-gray-300 to-gray-600 text-transparent bg-clip-text inline-block">
 					Frequently <br /> Asked <br /> Questions
 				</h2>
 			</div>
 
-			<div className="flex-1 flex flex-col gap-[16px]">
+			<div className="xl:flex-1 flex flex-col gap-[16px] lg:pr-12">
 				{faqData.map((data, index) => (
 					<Accordion
 						key={index}

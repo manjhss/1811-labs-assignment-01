@@ -13,10 +13,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className={`${inter.className}`}>
+			<body
+				className={`${inter.className} flex flex-col items-center bg-[#090725]`}
+			>
+				<div className="absolute top-0 -z-10">
+					<img
+						src="/hero-bg.png"
+						alt="bg-img"
+						className="w-screen h-screen md:h-full"
+					/>
+				</div>
+
 				<Header />
 				{children}
-				<Footer/>
+				<Footer />
 			</body>
 		</html>
 	);
